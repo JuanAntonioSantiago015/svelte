@@ -1,0 +1,22 @@
+{
+	"/": [],
+	"/crud/create": [
+		"src/routes/crud/create/+server.ts"
+	],
+	"/crud/read": [
+		"src/routes/crud/read/+server.ts"
+	],
+	"/crud/update/[muniid]": [
+		"src/routes/crud/update/[muniid]/+page.server.ts",
+		"src/routes/crud/update/[muniid]/+server.ts"
+	],
+	"/mail": [
+		"src/routes/mail/+server.ts"
+	],
+	"/mail/loadData": [
+		"src/routes/mail/loadData/+page.server.ts"
+	],
+	"/mail/selectOne": [
+		"src/routes/mail/selectOne/+page.server.ts"
+	]
+}

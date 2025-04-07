@@ -1,0 +1,253 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "name": "internal",
+    "src": ".svelte-kit/generated/server/internal.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js"
+    ]
+  },
+  "_Input.js": {
+    "file": "chunks/Input.js",
+    "name": "Input",
+    "imports": [
+      "_index2.js",
+      "_utils.js",
+      "_escaping.js",
+      "_attributes.js"
+    ]
+  },
+  "_attributes.js": {
+    "file": "chunks/attributes.js",
+    "name": "attributes",
+    "imports": [
+      "_escaping.js"
+    ]
+  },
+  "_client.js": {
+    "file": "chunks/client.js",
+    "name": "client",
+    "imports": [
+      "_exports.js",
+      "_utils.js"
+    ]
+  },
+  "_consultas.js": {
+    "file": "chunks/consultas.js",
+    "name": "consultas",
+    "imports": [
+      "_maria.js"
+    ]
+  },
+  "_equality.js": {
+    "file": "chunks/equality.js",
+    "name": "equality"
+  },
+  "_escaping.js": {
+    "file": "chunks/escaping.js",
+    "name": "escaping"
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js",
+    "name": "exports",
+    "imports": [
+      "_utils.js",
+      "_equality.js"
+    ]
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "name": "index"
+  },
+  "_index2.js": {
+    "file": "chunks/index2.js",
+    "name": "index"
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "name": "internal",
+    "imports": [
+      "_utils.js",
+      "_equality.js",
+      "_index2.js"
+    ]
+  },
+  "_maria.js": {
+    "file": "chunks/maria.js",
+    "name": "maria"
+  },
+  "_utils.js": {
+    "file": "chunks/utils.js",
+    "name": "utils"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "name": "entries/fallbacks/error.svelte",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_escaping.js",
+      "_index2.js",
+      "_client.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "name": "index",
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js",
+      "_index.js",
+      "_exports.js"
+    ]
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "name": "entries/pages/_layout.svelte",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "css": [
+      "_app/immutable/assets/_layout.Gi1MVDp3.css"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "name": "entries/pages/_page.svelte",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/crud/create/+page.svelte": {
+    "file": "entries/pages/crud/create/_page.svelte.js",
+    "name": "entries/pages/crud/create/_page.svelte",
+    "src": "src/routes/crud/create/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_attributes.js",
+      "_escaping.js",
+      "_index2.js",
+      "_Input.js"
+    ]
+  },
+  "src/routes/crud/create/+server.ts": {
+    "file": "entries/endpoints/crud/create/_server.ts.js",
+    "name": "entries/endpoints/crud/create/_server.ts",
+    "src": "src/routes/crud/create/+server.ts",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_maria.js"
+    ]
+  },
+  "src/routes/crud/read/+page.svelte": {
+    "file": "entries/pages/crud/read/_page.svelte.js",
+    "name": "entries/pages/crud/read/_page.svelte",
+    "src": "src/routes/crud/read/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_escaping.js",
+      "_attributes.js"
+    ]
+  },
+  "src/routes/crud/read/+server.ts": {
+    "file": "entries/endpoints/crud/read/_server.ts.js",
+    "name": "entries/endpoints/crud/read/_server.ts",
+    "src": "src/routes/crud/read/+server.ts",
+    "isEntry": true,
+    "imports": [
+      "_maria.js",
+      "_index.js"
+    ]
+  },
+  "src/routes/crud/update/[muniid]/+page.server.ts": {
+    "file": "entries/pages/crud/update/_muniid_/_page.server.ts.js",
+    "name": "entries/pages/crud/update/_muniid_/_page.server.ts",
+    "src": "src/routes/crud/update/[muniid]/+page.server.ts",
+    "isEntry": true,
+    "imports": [
+      "_maria.js"
+    ]
+  },
+  "src/routes/crud/update/[muniid]/+page.svelte": {
+    "file": "entries/pages/crud/update/_muniid_/_page.svelte.js",
+    "name": "entries/pages/crud/update/_muniid_/_page.svelte",
+    "src": "src/routes/crud/update/[muniid]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_client.js",
+      "_Input.js"
+    ]
+  },
+  "src/routes/crud/update/[muniid]/+server.ts": {
+    "file": "entries/endpoints/crud/update/_muniid_/_server.ts.js",
+    "name": "entries/endpoints/crud/update/_muniid_/_server.ts",
+    "src": "src/routes/crud/update/[muniid]/+server.ts",
+    "isEntry": true,
+    "imports": [
+      "_maria.js",
+      "_index.js"
+    ]
+  },
+  "src/routes/mail/+page.svelte": {
+    "file": "entries/pages/mail/_page.svelte.js",
+    "name": "entries/pages/mail/_page.svelte",
+    "src": "src/routes/mail/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_attributes.js",
+      "_escaping.js",
+      "_index2.js",
+      "_utils.js"
+    ]
+  },
+  "src/routes/mail/+server.ts": {
+    "file": "entries/endpoints/mail/_server.ts.js",
+    "name": "entries/endpoints/mail/_server.ts",
+    "src": "src/routes/mail/+server.ts",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/mail/loadData/+page.server.ts": {
+    "file": "entries/pages/mail/loadData/_page.server.ts.js",
+    "name": "entries/pages/mail/loadData/_page.server.ts",
+    "src": "src/routes/mail/loadData/+page.server.ts",
+    "isEntry": true,
+    "imports": [
+      "_consultas.js"
+    ]
+  },
+  "src/routes/mail/loadData/+page.svelte": {
+    "file": "entries/pages/mail/loadData/_page.svelte.js",
+    "name": "entries/pages/mail/loadData/_page.svelte",
+    "src": "src/routes/mail/loadData/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_escaping.js"
+    ]
+  },
+  "src/routes/mail/selectOne/+page.server.ts": {
+    "file": "entries/pages/mail/selectOne/_page.server.ts.js",
+    "name": "entries/pages/mail/selectOne/_page.server.ts",
+    "src": "src/routes/mail/selectOne/+page.server.ts",
+    "isEntry": true,
+    "imports": [
+      "_consultas.js"
+    ]
+  },
+  "src/routes/mail/selectOne/+page.svelte": {
+    "file": "entries/pages/mail/selectOne/_page.svelte.js",
+    "name": "entries/pages/mail/selectOne/_page.svelte",
+    "src": "src/routes/mail/selectOne/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_escaping.js"
+    ]
+  }
+}
