@@ -29,10 +29,12 @@ declare module '$env/static/private' {
 	export const SHELL: string;
 	export const npm_command: string;
 	export const npm_config_userconfig: string;
-	export const __HM_SESS_VARS_SOURCED: string;
 	export const COLORTERM: string;
+	export const __HM_SESS_VARS_SOURCED: string;
 	export const npm_config_cache: string;
 	export const XDG_SESSION_PATH: string;
+	export const TERM_PROGRAM_VERSION: string;
+	export const TMUX: string;
 	export const I3SOCK: string;
 	export const NODE: string;
 	export const SSH_AUTH_SOCK: string;
@@ -47,8 +49,8 @@ declare module '$env/static/private' {
 	export const XDG_SEAT: string;
 	export const PWD: string;
 	export const NIX_PROFILES: string;
-	export const XDG_SESSION_DESKTOP: string;
 	export const LOGNAME: string;
+	export const XDG_SESSION_DESKTOP: string;
 	export const XDG_SESSION_TYPE: string;
 	export const npm_config_init_module: string;
 	export const _: string;
@@ -70,6 +72,7 @@ declare module '$env/static/private' {
 	export const npm_package_name: string;
 	export const npm_config_prefix: string;
 	export const USER: string;
+	export const TMUX_PANE: string;
 	export const VISUAL: string;
 	export const DISPLAY: string;
 	export const npm_lifecycle_event: string;
@@ -90,6 +93,7 @@ declare module '$env/static/private' {
 	export const MAIL: string;
 	export const npm_node_execpath: string;
 	export const OLDPWD: string;
+	export const TERM_PROGRAM: string;
 	export const NODE_ENV: string;
 }
 
@@ -125,10 +129,12 @@ declare module '$env/dynamic/private' {
 		SHELL: string;
 		npm_command: string;
 		npm_config_userconfig: string;
-		__HM_SESS_VARS_SOURCED: string;
 		COLORTERM: string;
+		__HM_SESS_VARS_SOURCED: string;
 		npm_config_cache: string;
 		XDG_SESSION_PATH: string;
+		TERM_PROGRAM_VERSION: string;
+		TMUX: string;
 		I3SOCK: string;
 		NODE: string;
 		SSH_AUTH_SOCK: string;
@@ -143,8 +149,8 @@ declare module '$env/dynamic/private' {
 		XDG_SEAT: string;
 		PWD: string;
 		NIX_PROFILES: string;
-		XDG_SESSION_DESKTOP: string;
 		LOGNAME: string;
+		XDG_SESSION_DESKTOP: string;
 		XDG_SESSION_TYPE: string;
 		npm_config_init_module: string;
 		_: string;
@@ -166,6 +172,7 @@ declare module '$env/dynamic/private' {
 		npm_package_name: string;
 		npm_config_prefix: string;
 		USER: string;
+		TMUX_PANE: string;
 		VISUAL: string;
 		DISPLAY: string;
 		npm_lifecycle_event: string;
@@ -186,6 +193,7 @@ declare module '$env/dynamic/private' {
 		MAIL: string;
 		npm_node_execpath: string;
 		OLDPWD: string;
+		TERM_PROGRAM: string;
 		NODE_ENV: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: `${string}`]: string | undefined;
