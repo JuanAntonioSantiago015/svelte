@@ -1,3 +1,5 @@
+# Ejecutar pod
+podman run --network=host -p 5050:5050 app-svelte
 # sv
 
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
